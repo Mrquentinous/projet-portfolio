@@ -18,11 +18,5 @@ npm install
 ```sh
 npm run dev
 ```
-
-```sh
-npm run build
-```
-
-```sh
-npm run lint
-```
+une fois ceci fait vous obtiendrai un lien 
+vous fait ctrl clic dessus et vous avez le projet portfolio
