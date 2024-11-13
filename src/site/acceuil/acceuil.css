@@ -1,0 +1,63 @@
+#body {
+margin-inline: 150px;
+}
+img{
+    width: 100px;
+}
+body h1{
+    display: flex;
+    justify-content: space-around;
+}
+header{
+    margin-top: 30px;
+}
+
+#form  {
+    display: flex;
+    flex-direction: column;
+    margin-top: 110px;
+}
+section div{
+    height: 125px;
+    width: 800px;
+    border-top-width: 0px;
+    padding-top: 0px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #37B0E6;
+}
+section h3{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    background-color: aquamarine;
+}
+html{
+    background-attachment: fixed , scroll;
+    background-image: url(https://m1.quebecormedia.com/emp/emp/super_mario_3d_all_stars_switch_screenshot05e12803e7-3fe9-412a-8d2f-87e107df4b8d_ORIGINAL.jpg?impolicy=crop-resize&x=0&y=0&w=1280&h=720&width=925);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    font-size: 15px;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+a:hover{
+    color: darkviolet;
+}
+h2{
+    font-size: medium;
+}
