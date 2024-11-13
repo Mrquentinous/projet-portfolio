@@ -1,35 +1,23 @@
 # projet_portfolio
 
-This template should help get you started developing with Vue 3 in Vite.
+voici les étapes pour pouvoir voir mon portfolio grace a vue.js
 
-## Recommended IDE Setup
+etape 1:
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+faite clic droit dans le dossier et ouvrer le avec visual studio code
 
-## Customize configuration
+etape 2: 
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+ouvrer le terminal et executer ces codes
 
-## Project Setup
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+une fois ceci fait vous obtiendrai un lien vous fait ctrl clic dessus et vous avez le projet portfolio
 
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
