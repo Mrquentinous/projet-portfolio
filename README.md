@@ -18,5 +18,11 @@ npm install
 ```sh
 npm run dev
 ```
+
+
+une fois ceci fait vous obtiendrai un lien vous fait ctrl clic dessus et vous avez le projet portfolio
+
+
 une fois ceci fait vous obtiendrai un lien 
 vous fait ctrl clic dessus et vous avez le projet portfolio
+

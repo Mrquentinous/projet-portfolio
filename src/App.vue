@@ -23,7 +23,7 @@ export default{
     <h2>Ma présentation</h2>
 <p>je m'appelle {{ Nom }} {{ Prénom }} j'habite dans la region {{ Région }} j'ai {{ Age }} ans j'apprend le developpement web pour devenir developper web junior <br>
 voici quelques fonction que j'ai appris durant ma formation </p><br>
-<a href="/src/site/acceuil/acceuil.html"><button>site test</button></a>
+<a href="/src/site/acceuil/acceuil.html"><img id="logo" src="../src/site/image/tinywow_65042387_Ayv8MWXLV5z7dzfC.png" alt=""></a>
 
 <h2>Mon cv </h2>
 
@@ -39,5 +39,7 @@ voici quelques fonction que j'ai appris durant ma formation </p><br>
 template {
     display:flex ;
 }
-
+img{
+    width: 100px;
+}
 </style>
