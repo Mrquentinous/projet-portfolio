@@ -1,35 +1,22 @@
 <script setup>
-import CV from "./components/cv.vue"
-</script>
-<script >
+import Header from './components/MonHeader.vue';
+import presentation from './components/presentation.vue';
+import MesProjets from './components/MesProjets.vue';
+import Footer from './components/MonFooter.vue';
+import MyContact from './components/MyContact.vue';
 
-
-
-export default{
-    data(){
-        return{
-        Nom : 'LUST',
-        Prénom : 'Quentin',
-        Région : 'Haut-de-france',
-        Age : '29',
-        };
-    },
-};
-
-
+ 
 </script>
 <template>
-    <h1>portfolio de quentin lust</h1>
-    <h2>Ma présentation</h2>
-<p>je m'appelle {{ Nom }} {{ Prénom }} j'habite dans la region {{ Région }} j'ai {{ Age }} ans j'apprend le developpement web pour devenir developper web junior <br>
-voici quelques fonction que j'ai appris durant ma formation </p><br>
-<a href="/src/site/acceuil/acceuil.html"><img id="logo" src="../src/site/image/tinywow_65042387_Ayv8MWXLV5z7dzfC.png" alt=""></a>
-
-<h2>Mon cv </h2>
-
-
-    <div id="header"></div><br>
-<CV></CV>
+    <html>
+<Header></Header>
+<body>
+    <presentation/> 
+    <MesProjets/>
+    <MyContact/>
+</body>
+<Footer/>
+</html>
 </template>
 
 
@@ -41,5 +28,13 @@ template {
 }
 img{
     width: 100px;
+}
+html {
+    background-color: #712e1e ;
+    color: white;
+}
+body{
+    margin-top: 45px;
+    padding-bottom: 20px;
 }
 </style>
