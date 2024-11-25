@@ -3,7 +3,7 @@
 <template>
     <header>
         <div id="header">
-            <img src="../assets/images/home.png" alt="haut-de-page">
+           <a href="http://localhost:5173/"><img src="../assets/images/home.png" alt="home"></a> 
             <nav>
                 <ul>
                     <li>presentation</li>
@@ -21,8 +21,8 @@ img {
     margin: auto;
     margin-left: 21px;
     height : auto;
-    width : 3%; 
-    min-width : 15px;
+    width : 20%; 
+    
     
 }
 img:hover {
@@ -50,5 +50,8 @@ li {
 }
 ul{
     display: flex;
+}
+div {
+    justify-content: space-between;
 }
 </style>
