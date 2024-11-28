@@ -120,4 +120,7 @@ padding: 20px;
 .modal_image{
     width: 500px;
 }
+img{
+    height: 700px;
+}
 </style>
