@@ -1,4 +1,6 @@
 <script setup>
+
+
 </script>
 <template>
     <header>
@@ -6,15 +8,16 @@
            <a href="http://localhost:5173/"><img src="../assets/images/home.png" alt="home"></a> 
             <nav>
                 <ul>
-                    <li>presentation</li>
-                    <li>mes projets</li>
-                    <li>me contacter</li>
+                    <a href="#presentation"><li>presentation</li></a>
+                    <a href="#projets"><li>mes projets</li></a>
+                    <a href="#contact"><li>me contacter</li></a>
                 </ul>
             </nav>
         </div>
     </header> 
 </template>
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 img {
     border-radius: 50%;
@@ -47,11 +50,20 @@ nav {
 }
 li {
     padding-right: 40px;
+    font-size: large;
+    font-family: "roboto Mono";
+    display: inline-block;
 }
 ul{
     display: flex;
 }
 div {
     justify-content: space-between;
+}
+a {
+    text-decoration: none
+}
+a:hover {
+    text-decoration: underline;
 }
 </style>

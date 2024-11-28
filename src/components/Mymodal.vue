@@ -16,7 +16,7 @@ export default {
         <img src="../assets/images/cv.png" alt="cv-de-quentin-lust">
     </div>
     <div class="modal_text">
-        <p>cv de quentin lust</p>
+        <p class="texte">cv de quentin lust</p>
     </div>
     <div class="modal__footer">
         <button >fermer</button>
@@ -36,7 +36,7 @@ export default {
         <img src="../assets/images/cahier-des-charges.png" alt="cahier-des-chargest">
     </div>
     <div class="modal_text">
-        <p>cahier des charges d'un faux site de chaussettes</p>
+        <p class="texte">cahier des charges d'un faux site de chaussettes</p>
     </div>
     <div class="modal__footer">
         <button >fermer</button>
@@ -57,7 +57,7 @@ export default {
         <img src="../assets/images/commentaire.png" alt="commentaire">
     </div>
     <div class="modal_text">
-        <p>fabrication d'un espace commentaire</p>
+        <p class="texte">fabrication d'un espace commentaire</p>
     </div>
     <div class="modal__footer">
         <button >fermer</button>
@@ -105,9 +105,19 @@ padding: 20px;
 }
 .modal__header__titre{
     color: black;
+    
+    font-size: 200%;
 }
 .modal_text{
     color: black;
 }
-
+.texte {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+.modal_image{
+    width: 500px;
+}
 </style>
